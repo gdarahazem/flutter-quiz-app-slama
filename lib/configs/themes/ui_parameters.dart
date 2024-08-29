@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
@@ -8,7 +9,8 @@ double get mobileScreenPadding => _mobileScreenPadding;
 double get cardBorderRadius => _cardBorderRadius;
 
 
-
+// double get mobileScreenPadding => _mobileScreenPadding;
+// double get cardBorderRadius => _cardBorderRadius;
 
 class UIParameters{
 

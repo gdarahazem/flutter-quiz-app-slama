@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:get/get.dart';
-import 'package:lottie/lottie.dart';
 import 'package:mobile_quiz_app/configs/themes/app_colors.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/auth_controller.dart';
 import 'package:mobile_quiz_app/screens/login/Validators.dart';
+import 'package:mobile_quiz_app/widgets/common/main_button.dart';
+import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
 class LoginScreen extends GetView<AuthConatroller> {
   LoginScreen({Key? key});

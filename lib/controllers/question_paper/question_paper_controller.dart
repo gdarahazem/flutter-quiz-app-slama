@@ -1,11 +1,12 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/app_logger.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/auth_controller.dart';
 import 'package:mobile_quiz_app/firebase_ref/references.dart';
 import 'package:mobile_quiz_app/models/question_paper_model.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:mobile_quiz_app/screens/questions/questions_screen.dart';
 import 'package:mobile_quiz_app/services/firebase_storage_service.dart';
+import 'auth_controller.dart';
 
 class QuestionPaperController extends GetxController {
   final allPaperImages = <String>[].obs;

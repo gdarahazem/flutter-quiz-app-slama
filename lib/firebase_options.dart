@@ -27,7 +27,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        return windows;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -41,47 +44,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBbQlRBX2cPC-k8gtt5I0euW-HVAlpVUU8',
-    appId: '1:562522826631:web:9d94e7afc74a4f2eb79522',
-    messagingSenderId: '562522826631',
-    projectId: 'study-slama-app',
-    authDomain: 'study-slama-app.firebaseapp.com',
-    storageBucket: 'study-slama-app.appspot.com',
+    apiKey: 'AIzaSyCxMcSi7G-dsNUF6UpsK7BhZ3Z4W1vg_7M',
+    appId: '1:590573096795:web:8d3a3058e92fc95ee6147e',
+    messagingSenderId: '590573096795',
+    projectId: 'mobile-quiz-app-ced46',
+    authDomain: 'mobile-quiz-app-ced46.firebaseapp.com',
+    storageBucket: 'mobile-quiz-app-ced46.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDbEHhnYtMXF47sq5JT9AM9W7h_g3bfvwM',
-    appId: '1:562522826631:android:1934999fef71f995b79522',
-    messagingSenderId: '562522826631',
-    projectId: 'study-slama-app',
-    storageBucket: 'study-slama-app.appspot.com',
+    apiKey: 'AIzaSyDhsZlixF9uiLU6Xy9JQgfFZv7yT0GNbjI',
+    appId: '1:590573096795:android:1bb23a25e7e2311fe6147e',
+    messagingSenderId: '590573096795',
+    projectId: 'mobile-quiz-app-ced46',
+    storageBucket: 'mobile-quiz-app-ced46.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC674TlaE_pkvYSX5U0cdYEQPPX58T925k',
-    appId: '1:562522826631:ios:ee2971ad45142c88b79522',
-    messagingSenderId: '562522826631',
-    projectId: 'study-slama-app',
-    storageBucket: 'study-slama-app.appspot.com',
+    apiKey: 'AIzaSyC9tvLdFjoVSkSa_YXwjoUdlmnc82fjnho',
+    appId: '1:590573096795:ios:f51047bd32b53d93e6147e',
+    messagingSenderId: '590573096795',
+    projectId: 'mobile-quiz-app-ced46',
+    storageBucket: 'mobile-quiz-app-ced46.appspot.com',
     iosBundleId: 'com.example.mobileQuizApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC674TlaE_pkvYSX5U0cdYEQPPX58T925k',
-    appId: '1:562522826631:ios:ee2971ad45142c88b79522',
-    messagingSenderId: '562522826631',
-    projectId: 'study-slama-app',
-    storageBucket: 'study-slama-app.appspot.com',
-    iosBundleId: 'com.example.mobileQuizApp',
+    apiKey: 'AIzaSyC9tvLdFjoVSkSa_YXwjoUdlmnc82fjnho',
+    appId: '1:590573096795:ios:f6a545ffc197aefde6147e',
+    messagingSenderId: '590573096795',
+    projectId: 'mobile-quiz-app-ced46',
+    storageBucket: 'mobile-quiz-app-ced46.appspot.com',
+    iosBundleId: 'com.example.mobileQuizApp.RunnerTests',
   );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBbQlRBX2cPC-k8gtt5I0euW-HVAlpVUU8',
-    appId: '1:562522826631:web:9d6039e0bccba629b79522',
-    messagingSenderId: '562522826631',
-    projectId: 'study-slama-app',
-    authDomain: 'study-slama-app.firebaseapp.com',
-    storageBucket: 'study-slama-app.appspot.com',
-  );
-
 }
