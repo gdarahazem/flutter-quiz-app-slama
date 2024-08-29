@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 // import 'package:mobile_quiz_app/configs/themes/app_light_theme.dart';
 import 'package:mobile_quiz_app/configs/themes/sub_theme_data_mixin.dart';
 
-const Color primaryDarkColorDark = Color(0xFF2e3c62);
+const Color primaryDarkColorDark = Color(0xff62582e);
 // const Color primaryColorDark1 = Color(0xFF99ace1);
 const Color primaryColorDark = Color.fromARGB(255, 110, 123, 160);
 const Color mainTextColordark = Color.fromARGB(255, 255, 255, 255);

@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/question_paper_controller.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/questions_controller.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/zoom_drawer_controller.dart';
-import 'package:mobile_quiz_app/models/question_paper_model.dart';
 import 'package:mobile_quiz_app/screens/home/home_screen.dart';
 import 'package:mobile_quiz_app/screens/introduction/introduction.dart';
 import 'package:mobile_quiz_app/screens/login/login_screen.dart';

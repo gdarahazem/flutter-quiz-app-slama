@@ -80,46 +80,46 @@ class MyMenuScreen extends GetView<MyZoomDrawerController> {
                       flex: 1,
                     ),
 
-                    Padding(
-                      padding: const EdgeInsets.only(left: 5.0),
-                      child: _DrawerButton(
-                        icon: Icons.subject_outlined,
-                        label: "Physics",
-                        onPressed: () => controller.physics(),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 20),
-                      child: _DrawerButton(
-                        icon: Icons.subject_outlined,
-                        label: "Chemistry",
-                        onPressed: () => controller.chemistry(),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 5.0),
-                      child: _DrawerButton(
-                        icon: Icons.subject_sharp,
-                        label: "Maths",
-                        onPressed: () => controller.maths(),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 15),
-                      child: _DrawerButton(
-                        icon: Icons.subject,
-                        label: "Biology",
-                        onPressed: () => controller.biology(),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 5),
-                      child: _DrawerButton(
-                        icon: Icons.email,
-                        label: "email",
-                        onPressed: () => controller.email(),
-                      ),
-                    ),
+                    // Padding(
+                    //   padding: const EdgeInsets.only(left: 5.0),
+                    //   child: _DrawerButton(
+                    //     icon: Icons.subject_outlined,
+                    //     label: "Physics",
+                    //     onPressed: () => controller.physics(),
+                    //   ),
+                    // ),
+                    // Padding(
+                    //   padding: const EdgeInsets.only(left: 20),
+                    //   child: _DrawerButton(
+                    //     icon: Icons.subject_outlined,
+                    //     label: "Chemistry",
+                    //     onPressed: () => controller.chemistry(),
+                    //   ),
+                    // ),
+                    // Padding(
+                    //   padding: const EdgeInsets.only(left: 5.0),
+                    //   child: _DrawerButton(
+                    //     icon: Icons.subject_sharp,
+                    //     label: "Maths",
+                    //     onPressed: () => controller.maths(),
+                    //   ),
+                    // ),
+                    // Padding(
+                    //   padding: const EdgeInsets.only(left: 15),
+                    //   child: _DrawerButton(
+                    //     icon: Icons.subject,
+                    //     label: "Biology",
+                    //     onPressed: () => controller.biology(),
+                    //   ),
+                    // ),
+                    // Padding(
+                    //   padding: const EdgeInsets.only(left: 5),
+                    //   child: _DrawerButton(
+                    //     icon: Icons.email,
+                    //     label: "email",
+                    //     onPressed: () => controller.email(),
+                    //   ),
+                    // ),
                     // _DrawerButton(
                     //   icon: Icons.book_online_sharp,
                     //   label: "Recent Scores",

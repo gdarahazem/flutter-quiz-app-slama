@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
-import 'package:mobile_quiz_app/configs/themes/app_colors.dart';
 import 'package:mobile_quiz_app/configs/themes/custom_text_styles.dart';
 import 'package:mobile_quiz_app/controllers/question_paper/questions_controller.dart';
 import 'package:mobile_quiz_app/screens/questions/result_screen.dart';

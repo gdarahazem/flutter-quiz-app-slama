@@ -124,7 +124,7 @@ class HomeScreen extends GetView<MyZoomDrawerController> {
                               width: 30,
                             ),
                             Text(
-                              "Welcome to Quiz Master",
+                              "Welcome to Slama Quiz",
                               style: headerText.copyWith(
                                   color: onSurfaceTextColor),
                             ),
